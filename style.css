@@ -30,7 +30,8 @@ p {
     /* margem lateral */
 }
 
-.imagem-introducao,
+.imagem-introducao1,
+.imagem-introducao2,
 .infografico {
     display: block;
     margin: 20px auto;
