@@ -29,13 +29,23 @@ p {
     max-width: 1000px;
     /* margem lateral */
 }
-
+.imagens-lado-a-lado {
+    display: flex;
+    gap: 5px; /* espaço entre as imagens, ajuste como desejar */
+    align-items: center; /* alinhamento vertical, opcional */
+}
+/* Estilo para as imagens dentro do container */
+.imagens-lado-a-lado img {
+    width: 450px; /* defina a largura desejada */
+    height: 350px; /* defina a altura desejada */
+    object-fit: cover; /* ajusta a imagem para preencher o espaço sem distorcer */
+}
 .imagem-introducao1,
 .imagem-introducao2,
 .infografico {
     display: block;
     margin: 20px auto;
-    max-width: 40%;
+    max-width: 60%;
     height: auto;
     border-radius: 20px 20px 20px 20px;
 }
